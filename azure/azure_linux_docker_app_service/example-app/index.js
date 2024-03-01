@@ -52,6 +52,7 @@ async function startServer() {
 
       res.writeHead(200);
       res.end("My first server!");
+      res.end("My first server!");
     } catch (error) {
       console.error(err);
       res.writeHead(500);
